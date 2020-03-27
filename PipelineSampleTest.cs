@@ -11,8 +11,6 @@ public class PipelineSampleTest
     public void MyFirstTheory(int mynumber)
     {
       Assert.True(Program.IsOdd(mynumber));
-
-
     }
 
 [Fact]
@@ -28,6 +26,5 @@ public void FailingTest()
 {
  Assert.NotEqual(5,Program.Add(2,2));
 }
-
 
 }
